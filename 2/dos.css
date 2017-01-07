@@ -1,4 +1,4 @@
-/* floating image */
+/* floating image// button */
 #hp {
   display: block;
   align: right;
@@ -6,20 +6,6 @@
   width: 100px;
   height: 100px;
   right: 0px
-}
-
-/* button */
-.button {
-  background-color: black;
-  border: none;
-  color: white;
-
-}
-
-/* idk how to center pic so i just kept this here */
-#parent {
-  display: flex;
-  justify-content: center;
 }
 
 /* navigation bar */
@@ -49,15 +35,15 @@ a {
 
 /* hogwarts picture */
 #hogwarts {
-  width: 700px;
   height: 350px;
   display: block;
   margin: auto;
+  border-radius: 50%
 }
 
 /* quote */
 #quote {
-  background-color: #d0ecb4;
+  background-image: url("pattern.jpg");
   margin-left: 20px;
   margin-right: 20px;
 }
